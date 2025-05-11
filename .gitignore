@@ -1,0 +1,72 @@
+# Environment variables and secrets
+.env
+*.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# API keys and credentials
+*_key*
+*_secret*
+*credentials*
+*token*
+
+# Data files
+data/*
+!data/companies/
+!data/companies/fortune100.csv
+!data/raw/
+!data/raw/.gitkeep
+!data/processed/
+!data/processed/.gitkeep
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+.venv/
+virtualenv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime*
+.project
+.pydevproject
+.settings/
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
